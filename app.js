@@ -30,7 +30,7 @@ function pelea(win, lose) {
     //VERIFICACION
     if (ia == player) {
       alert("¡Es un Empate!")
-    } else if (player == 1 && ia == 3 || player == 2 && ia == 1 || player == 3 && ia == 1 ) {
+    } else if (player == 1 && ia == 3 || player == 2 && ia == 1 || player == 3 && ia == 2 ) {
       alert("¡Has Ganado!")
       win++
     } else {
